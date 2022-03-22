@@ -7,6 +7,9 @@ class ProductTag extends Model {}
 ProductTag.init(
   {
     // define columns
+    /* id integer not null primarykey auto increment
+    product_id integer (references product model id)
+    tag_id integer (references tag models id) */
   },
   {
     sequelize,
